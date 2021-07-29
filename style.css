@@ -1,0 +1,142 @@
+/* Grid */
+.grid-container{
+    margin: 3rem 4rem;
+    padding: 5rem 0;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+#wrapper{
+    padding-left: auto;
+    padding-right: auto;
+}
+/* Boxes */
+.tri-black{
+    width: 0;
+    height: 0;
+    border-top: 290px solid transparent;
+    border-right: 290px solid black;
+    border-bottom: 290px solid transparent;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -60px;
+}
+
+.tri-red{
+    width: 0;
+    height: 0;
+    border-top: 320px solid transparent;
+    border-right: 320px solid red;
+    border-bottom: 320px solid transparent;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -25px;
+
+}
+
+.tri-yellow{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 100px solid rgb(224, 184, 4);
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 300px;
+}
+
+.tri-dgrey{
+    width: 0;
+    height: 0;
+    border-top: 150px solid grey;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -5px;
+}
+.tri-bgrey1{
+    width: 0;
+    height: 0;
+    border-top: 200px solid rgb(193, 198, 204);
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    position: absolute; 
+    margin-top: -30px;
+   
+
+}
+.tri-bgrey2{
+    width: 0;
+    height: 0;
+    border-top: 205px solid transparent;
+    /* border-left: 200px solid transparent; */
+    border-right: 205px solid transparent;
+    border-bottom: 205px solid rgb(193, 198, 204);
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.tri-white1{
+    width: 0;
+    height: 0;
+    border-top: 180px solid transparent;
+    border-left: 180px solid rgb(238, 238, 238);
+    border-bottom: 180px solid transparent;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -65px;
+    position: absolute;
+}
+.tri-white2{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(238, 238, 238);
+    position: absolute;
+    margin-top: 300px;
+    
+}
+.box{
+    width: 500px; 
+    height: 500px;
+    border: solid white;
+    border-width: 10px;
+    position: absolute; 
+    overflow: hidden;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+ }
+
+ .clearfix{
+    clear: both;
+}
+
+
+nav ul{
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    padding-top: 30px;
+    text-decoration: none;
+    color: red;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ec0909;
+    /* padding-left: 20px; */
+    
+}
